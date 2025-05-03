@@ -28,6 +28,7 @@ const api = async (path, param, pubkey) => {
 
 export default { fetch: makeFetch(api) };
 ```
+[server.js](server.js)
 
 ## client
 
@@ -48,6 +49,7 @@ span_pubkey.textContent = res.pubkey;
 span_count.textContent = res.count;
 </script>
 ```
+[static/index.html](static/index.html)
 
 ## reference
 
