@@ -1,14 +1,6 @@
 # pubkeyuser_template
 
-## usage
-
-```sh
-deno serve --allow-import --allow-read=./static/ --port 8800 server.js
-```
-or
-```sh
-deno serve -A --port 8800 server.js
-```
+a simple API server with [PubkeyUser](https://github.com/code4fukui/PubkeyUser) on Deno
 
 ## server
 
@@ -50,6 +42,16 @@ span_count.textContent = res.count;
 </script>
 ```
 [static/index.html](static/index.html)
+
+## to run
+
+```sh
+deno serve --allow-import --allow-read=./static/ --port 8800 server.js
+```
+or
+```sh
+deno serve -A --port 8800 server.js
+```
 
 ## reference
 
